@@ -27,7 +27,8 @@ export default function App({ Component, pageProps }) {
         <a className="nav-home-link" href="/">
           <Image className="logo" src={seagull} alt="Seagull Logo" />
         </a>
-        {/* <CgMenu
+        {/* Gamla menyn
+        <CgMenu
           onClick={(e) => {
             e.stopPropagation();
             setOpenMenu(!openMenu);
