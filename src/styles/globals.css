@@ -294,6 +294,7 @@ nav li a:hover {
     height: 1.4em;
   }
 
+  /* HOME-CONTENT */
   .home-content-div {
     display: flex;
     justify-content: center;
