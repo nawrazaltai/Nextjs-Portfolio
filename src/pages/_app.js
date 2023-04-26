@@ -3,6 +3,7 @@ import Image from "next/image";
 import seagull from "../../public/seagull.png";
 import { CgMenu } from "react-icons/cg";
 import { useState, useRef, useEffect, use } from "react";
+import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 
 export default function App({ Component, pageProps }) {
   const [openMenu, setOpenMenu] = useState(false);
@@ -66,6 +67,25 @@ export default function App({ Component, pageProps }) {
         </ul>
       </nav>
       <Component {...pageProps} />
+      <div className="home-svg-div">
+        <ul className="socials-ul">
+          <li>
+            <a href="/">
+              <FaGithubSquare />
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              <FaLinkedin />
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              <FaTwitterSquare />
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

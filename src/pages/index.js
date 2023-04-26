@@ -32,7 +32,7 @@ export default function Home() {
           alt="developer animation"
         />
       </div>
-      <div className="home-svg-div">
+      {/* <div className="home-svg-div">
         <ul className="socials-ul">
           <li>
             <a href="/">
@@ -50,7 +50,7 @@ export default function Home() {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
