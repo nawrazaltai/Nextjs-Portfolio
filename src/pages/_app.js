@@ -70,12 +70,12 @@ export default function App({ Component, pageProps }) {
       <div className="home-svg-div">
         <ul className="socials-ul">
           <li>
-            <a href="/">
+            <a href="https://github.com/nawrazaltai">
               <FaGithubSquare />
             </a>
           </li>
           <li>
-            <a href="/">
+            <a href="https://www.linkedin.com/in/nawras-altai">
               <FaLinkedin />
             </a>
           </li>
