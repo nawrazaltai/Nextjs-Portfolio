@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }) {
     <div className="">
       <nav className="">
         <a className="nav-home-link" href="/">
-          <Image className="logo" src={seagull} alt="Seagull Logo" />
+          Home
         </a>
         {/* Gamla menyn
         <CgMenu
@@ -67,7 +67,7 @@ export default function App({ Component, pageProps }) {
         </ul>
       </nav>
       <Component {...pageProps} />
-      <div className="home-svg-div">
+      {/* <div className="home-svg-div">
         <ul className="socials-ul">
           <li>
             <a href="https://github.com/nawrazaltai">
@@ -85,7 +85,7 @@ export default function App({ Component, pageProps }) {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
