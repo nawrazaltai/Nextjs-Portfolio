@@ -13,19 +13,11 @@ export default function Navbar({ openMenu, setOpenMenu, menuRef }) {
       <Link
         href="/"
         className={`${styles.nav_home_link} ${
-          currentPath == "/" ? styles.active_link : ""
+          currentPath == "/" ? styles.active_home_link : styles.nav_home_link
         }`}
       >
         Home
       </Link>
-      {/* Gamla menyn
-        <CgMenu
-          onClick={(e) => {
-            e.stopPropagation();
-            setOpenMenu(!openMenu);
-          }}
-          className="hamburger-menu"
-        /> */}
       <div
         className={styles.hamburger_menu}
         onClick={(e) => {
@@ -35,7 +27,7 @@ export default function Navbar({ openMenu, setOpenMenu, menuRef }) {
       >
         <span
           className={`${styles.hamburger_span} ${
-            openMenu ? styles.rotate : ""
+            openMenu ? styles.rotate : styles.hamburger_span
           }`}
         ></span>
         <span

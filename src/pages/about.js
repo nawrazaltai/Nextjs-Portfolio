@@ -1,12 +1,14 @@
 import styles from "@/styles/About.module.css";
 
 export default function About() {
+  const myAge = 2023 - 1994;
+
   return (
     <div className={styles.container}>
       <div className={styles.who_am_i_div}>
         <h1 className={styles.who_am_i_title}>So, who am I?</h1>
         <p className={styles.who_am_i_paragraphs}>
-          My name is Nawras Altai and I'm a 29 year old frontend-developer
+          My name is Nawras Altai and I'm a {myAge} year old frontend-developer
           student from Sweden. Apart from studying I'm currently working as a
           mentor at an upper secondary school and I have been doing that the for
           the last 5 years. My main tasks are to design schedueles and create

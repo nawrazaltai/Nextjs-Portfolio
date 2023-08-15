@@ -80,15 +80,10 @@
 
 .what_i_do_div {
   background-color: rgb(27, 76, 236);
-  /* background-color: white; */
   margin-top: 2em;
   padding: 3em 0em;
   height: fit-content;
-  /* -webkit-transform: skew(0, -4.76deg) translateY(calc(50vw / -12)); */
-  /* -ms-transform: skew(0, -4.76deg) translateY(calc(50vw / -12)); */
-  /* position: absolute; */
   transform: skewY(-4deg);
-  /* transform-origin: top right; */
 }
 
 .what_i_do_h2 {

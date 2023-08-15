@@ -1,16 +1,13 @@
 .navbar_container {
   width: 100%;
+  /* width: fit-content; */
   display: flex;
   justify-content: space-between;
   background-color: #0c090a;
-  padding: 1.5em 1.5em;
+  padding: 1.75em 1.5em;
   align-items: center;
   font-weight: 700;
-  height: 5em;
-}
-
-.nav_home_link:hover {
-  color: rgb(27, 76, 236);
+  /* height: 5em; */
 }
 
 .link {
@@ -36,7 +33,6 @@
 
 .nav_home_link:hover {
   color: rgb(27, 76, 236);
-  /* color: slategrey; */
 }
 
 .nav_ul {
@@ -45,6 +41,13 @@
 }
 
 .active_link {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  color: rgb(27, 76, 236);
+}
+
+.active_home_link {
+  font-size: 1.2rem;
   text-decoration: underline;
   color: rgb(27, 76, 236);
 }
@@ -52,10 +55,8 @@
 @media screen and (min-width: 375px) and (max-width: 768px) {
   .hamburger_menu {
     display: flex;
-    /* color: white; */
     width: 1.8em;
     height: 1em;
-    /* gap: 0.2em; */
     position: relative;
     cursor: pointer;
   }
@@ -166,14 +167,27 @@
   .dropdown_nav_li:last-child {
     margin-bottom: 2em;
   }
+
   .link {
     text-decoration: none;
     /* color: #0c090a; */
     color: #ffffff;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+
+  .nav_home_link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
   }
 
   .active_link {
+    text-decoration: underline;
+    color: rgb(27, 76, 236);
+  }
+
+  .active_home_link {
+    font-size: 1.2rem;
     text-decoration: underline;
     color: rgb(27, 76, 236);
   }
