@@ -3,7 +3,6 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import frontend from "../../public/frontend-logo.png";
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 import { BsCodeSlash } from "react-icons/bs";
 import { MdOutlineDevicesOther, MdOutlineDesignServices } from "react-icons/md";
 import teamWork from "../../public/interview.png";
@@ -74,6 +73,7 @@ export default function Home() {
             company, collaborate with me or just give me some advice, you can
             always reach out to me!
           </p>
+
           <Image
             className={styles.teamwork_img}
             src={teamWork}

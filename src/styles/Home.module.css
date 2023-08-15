@@ -153,8 +153,8 @@
   margin-top: -6em;
   /* padding: 0em 1em; */
   align-items: center;
-  margin-bottom: 2em;
-  padding-bottom: 1em;
+  /* margin-bottom: 2em; */
+  padding-bottom: 3em;
 }
 
 .work_together_h2 {
@@ -178,8 +178,8 @@
   justify-content: center;
 }
 
-.teamwork_img {
-}
+/* .teamwork_img {
+} */
 
 .home_contact_me_button {
   min-width: 90%;
@@ -297,5 +297,7 @@
 
   .home_contact_me_button {
     margin-top: 0.8em;
+    padding: 0.85em 0.2em;
+    font-size: 1.5rem;
   }
 }
