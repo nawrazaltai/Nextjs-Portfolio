@@ -24,7 +24,13 @@ export default function App({ Component, pageProps }) {
   }, []);
 
   return (
-    <div className="">
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        minHeight: "100vh",
+      }}
+    >
       <Navbar setOpenMenu={setOpenMenu} openMenu={openMenu} menuRef={menuRef} />
       <Component {...pageProps} />
       <Footer />

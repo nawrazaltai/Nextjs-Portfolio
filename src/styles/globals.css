@@ -1,15 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500&display=swap");
-*,
-html {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
 }
+html {
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  /* height: fit-content; */
+}
 
 body {
-  height: 100%;
-  height: fit-content;
+  margin: 0;
+  padding: 0;
   width: fit-content;
+  /* position: fixed;
+  overflow-y: scroll; */
   background-color: #0c090a;
+  /* background-color: red; */
+}
+
+.projects-container,
+.skills-container,
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  color: white;
 }
