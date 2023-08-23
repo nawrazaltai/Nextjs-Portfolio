@@ -8,6 +8,10 @@ export default function Navbar({ openMenu, setOpenMenu, menuRef }) {
   const router = useRouter();
   const currentPath = router?.pathname;
 
+  useEffect(() => {
+    setOpenMenu(false);
+  }, [currentPath]);
+
   return (
     <nav className={styles.navbar_container}>
       <Link
