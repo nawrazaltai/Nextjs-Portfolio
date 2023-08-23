@@ -15,18 +15,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  width: fit-content;
+  /* width: fit-content; */
   /* position: fixed;
   overflow-y: scroll; */
   background-color: #0c090a;
   /* background-color: red; */
-}
-
-.projects-container,
-.skills-container,
-.contact-container {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  color: white;
 }
