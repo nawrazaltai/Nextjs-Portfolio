@@ -9,7 +9,6 @@ html {
   min-width: 100%;
   margin: 0;
   padding: 0;
-  /* height: fit-content; */
 }
 
 body {
@@ -18,6 +17,6 @@ body {
   /* width: fit-content; */
   /* position: fixed;
   overflow-y: scroll; */
+  min-width: fit-content;
   background-color: #0c090a;
-  /* background-color: red; */
 }

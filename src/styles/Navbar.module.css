@@ -3,7 +3,7 @@
   /* min-width: fit-content; */
   /* width: fit-content; */
   display: flex;
-  width: 100%;
+  /* width: fit-content; */
   justify-content: space-between;
   background-color: #0c090a;
   padding: 1.75em 1.5em;
