@@ -10,6 +10,7 @@ import {
   SiNodedotjs,
   SiExpress,
   SiVercel,
+  SiTypescript,
 } from "react-icons/si";
 import { PiDatabase } from "react-icons/pi";
 import { GrDeploy } from "react-icons/gr";
@@ -23,6 +24,7 @@ export default function Skills() {
       { skill: "CSS", icon: <SiCss3 /> },
       { skill: "React", icon: <SiReact /> },
       { skill: "React Native", icon: <SiReact /> },
+      { skill: "Typescript", icon: <SiTypescript /> },
       { skill: "Tailwind", icon: <SiTailwindcss /> },
       { skill: "Next.js", icon: <SiNextdotjs /> },
       { skill: "Jest", icon: <SiJest /> },

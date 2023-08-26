@@ -23,7 +23,9 @@ export default function Navbar({ openMenu, setOpenMenu, menuRef }) {
         Home
       </Link>
       <div
-        className={styles.hamburger_menu}
+        className={
+          openMenu ? styles.hamburger_menu_open : styles.hamburger_menu
+        }
         onClick={(e) => {
           e.stopPropagation();
           setOpenMenu(!openMenu);

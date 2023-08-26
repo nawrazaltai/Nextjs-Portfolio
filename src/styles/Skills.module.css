@@ -5,7 +5,7 @@
   justify-content: center;
   /* align-items: center; */
   color: white;
-  margin-bottom: auto;
+  margin-bottom: 1em;
   padding: 1em 0.85em;
   /* border: 1px solid red; */
   /* height: 100vh; */
@@ -53,6 +53,14 @@
   grid-row-gap: 0.85em;
 }
 
+.backend_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0.9em;
+  grid-row-gap: 0.85em;
+}
+
 .skill_card {
   min-width: 6.5em;
   min-height: 6.5em;
@@ -89,6 +97,7 @@
   .skills_overview_text {
     margin-top: 0.65rem;
     font-size: 1.45rem;
+    width: 75%;
   }
 
   .skill_title {
@@ -107,6 +116,14 @@
     grid-row-gap: 1.5em;
     transition: 1s ease all;
   }
+  .backend_div {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2em;
+    grid-row-gap: 1.5em;
+    transition: 1s ease all;
+  }
+
   .skill_card {
     /* height: 12em; */
     padding: 2em;

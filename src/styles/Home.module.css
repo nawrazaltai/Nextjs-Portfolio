@@ -1,7 +1,6 @@
 .home_container {
-  width: fit-content;
+  width: 100%;
   display: flex;
-  /* overflow: scroll; */
   /* top: 5em; */
   /* bottom: 0; */
   /* border: 1px solid red; */
